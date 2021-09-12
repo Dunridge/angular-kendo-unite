@@ -1,6 +1,15 @@
-<div class="k-block">
-  <button kendoButton [look]="'default'">Default button</button>
-  <button kendoButton [look]="'outline'">Outline button</button>
-  <button kendoButton [look]="'bare'">Bare button</button>
-  <button kendoButton>Button</button>
-</div>
+<!--<div class="k-block">-->
+<!--  <button kendoButton [look]="'default'">Default button</button>-->
+<!--  <button kendoButton [look]="'outline'">Outline button</button>-->
+<!--  <button kendoButton [look]="'bare'">Bare button</button>-->
+<!--  <button kendoButton [disabled]="true">Button</button>-->
+<!--</div>-->
+
+<!--<button kendoButton [primary]="true">Primary action</button>-->
+<!--<button kendoButton [togglable]="true">Toggleable action</button>-->
+
+<kendo-buttongroup [width]="'100'" look="outline">
+  <button kendoButton [icon]="'user'" [togglable]="true">Icon button</button>
+  <button kendoButton [icon]="'check'">Icon button</button>
+  <button kendoButton [icon]="'calendar'">Icon button</button>
+</kendo-buttongroup>
